@@ -145,3 +145,59 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or suggestions, please contact [yourname@example.com](mailto:yourname@example.com).
+
+## Animations and Transitions
+
+To make the user experience more engaging, we have added animations and transitions using CSS. Below are some examples:
+
+### Button Hover Animation
+
+```css
+<style>
+    .stButton>button {
+        transition: background-color 0.3s ease, border 0.3s ease;
+    }
+    .stButton>button:hover {
+        background-color: #003366; /* Darker Blue */
+        border: 2px solid #003366; /* Darker Blue */
+    }
+</style>
+```
+
+### Header Fade-In Animation
+
+```css
+<style>
+    .header {
+        animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+```
+
+### Logo Spin Animation
+
+```css
+<style>
+    .logo {
+        animation: spin 5s linear infinite;
+    }
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+```
+
+These animations and transitions enhance the visual appeal and interactivity of the application, making it more engaging for users.
