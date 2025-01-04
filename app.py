@@ -57,6 +57,28 @@ st.markdown(f"""
         .logo {{
             width: 100px;
         }}
+        
+        /* Enhanced UI Styles */
+        .stFileUploader {{
+            margin-bottom: 20px;
+        }}
+        .stButton {{
+            margin-top: 20px;
+        }}
+        .stTextInput, .stButton {{
+            font-size: 18px;
+        }}
+        .stTextArea {{
+            font-size: 16px;
+            border: 2px solid #004080;
+        }}
+        .summary-section {{
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }}
     </style>
 """, unsafe_allow_html=True)
 
